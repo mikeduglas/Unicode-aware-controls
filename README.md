@@ -2,7 +2,8 @@
 Display Unicode text in PROMPT, STRING, CHECK, RADIO controls
 
 ### Overview
-This set of classes allows to display Unicode text in screen controls (PROMPT, STRING, CHECK, RADIO).  
+This set of classes allows to display Unicode text in screen controls (PROMPT, STRING, CHECK, RADIO). 
+UTF-8 and UTF-16 character encodings are supported.  
 ![Unicode demo](https://github.com/mikeduglas/Unicode-aware-controls/blob/master/UnicodeDemo.jpg?raw=true)  
 
 ### How it works
