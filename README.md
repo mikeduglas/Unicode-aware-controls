@@ -19,6 +19,11 @@ To change a text displayed in a control you still use PROP:Text property and pas
 ```
   PROMPT1{PROP:Text} = '<0FFh,0FEh><39h,26h><0Fh,0FEh><0Dh,00h><0Ah,00h><39h,26h><0Fh,0FEh><00h,00h>'
 ```
+... or in UTF8 format:
+```
+  PROMPT1{PROP:Text} = '<0EFh,0BBh,0BFh>Hello <0F0h,9Fh,98h,80h> world!'
+```
+
 Well, it looks confusing enough, but there are 2 solutions.
 1. I have an utility to convert unicode file to its Clarion representation. Thus you just open Unicode file and get encoded string which
 can be copied and pasted right into the code.
